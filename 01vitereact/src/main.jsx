@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import {jsx as _jsx} from 'react/jsx-runtime'
+import {jsx as _jsx} from 'react/jsx-runtime.js'
 import App from './App.jsx'
 
 function MyApp() {
@@ -31,7 +31,7 @@ const reactElement= React.createElement(
     target: '_blank' 
   },
   'click me to visit google',
-  
+  anotherUser
 )
 
 const anotherElement=(
@@ -45,6 +45,6 @@ const anotherElement=(
 ReactDOM.createRoot(document.getElementById('root'))
 .render(
   
-    <App />
+   reactElement
 
 )
