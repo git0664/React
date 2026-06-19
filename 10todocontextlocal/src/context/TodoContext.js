@@ -8,6 +8,10 @@ export const TodoContext= createContext({
             complete: false,
         }
     ],
+    addTodo: (todo)=>{},
+    updateTodo:(id, todo)=>{},
+    deleteTodo: (id)=>{},
+    toggoleComplete: (id)=>{}
 })
 
 
